@@ -3,10 +3,9 @@
 
 A simple ad-free android app for playing Truth or Dare game using a rotating bottle in the app.
 
-Users can select the number or participants, minimum and maximum rotation of bottle and the duration of rotation.
+Users can select the number of participants, minimum and maximum rotation of the bottle and the duration of the rotation.
 
-This app does not connect to the internet and do not collect or store any type or user data.
-
+This app does not connect to the internet and does not collect or store any type of user data.
 
 Play Store Link: https://play.google.com/store/apps/details?id=in.nirajwaghtech.truthordare
 
