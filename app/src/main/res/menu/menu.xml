@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group0">
+
+        <item
+            android:id="@+id/menuSettings"
+            android:title="Settings"/>
+
+        <item
+            android:id="@+id/menuAbout"
+            android:title="About"/>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1"
+        >
+
+        <item
+            android:id="@+id/menuSourceCode"
+            android:title="Source Code"/>
+
+        <item
+            android:id="@+id/menuOtherApps"
+            android:title="Other Apps"/>
+
+        <item
+            android:id="@+id/menuYoutube"
+            android:title="Youtube Channel"
+            />
+
+    </group>
+</menu>

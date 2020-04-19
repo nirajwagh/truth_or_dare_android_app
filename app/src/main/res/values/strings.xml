@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Truth Or Dare</string>
+    <string name="app_about">
+        \"Truth Or Dare" Android App by \"The Minimal Developer\" is an open sourced application. \n\nUsers can spins the bottle for playing Truth Or Dare game with maximum of 6 participants.\n\nYou can get the source code from my Github profile, link in slider menu.\n\nThis app does not collect or store any user data, not even user name or email.
+    </string>
+
+
 </resources>
