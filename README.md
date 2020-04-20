@@ -7,6 +7,8 @@ Users can select the number of participants, minimum and maximum rotation of the
 
 This app does not connect to the internet and does not collect or store any type of user data.
 
+Demo On Youtube: https://youtu.be/coW6aaKPJQ4
+
 Play Store Link: https://play.google.com/store/apps/details?id=in.nirajwaghtech.truthordare
 
 Download apk: https://github.com/nirajwagh/truth_or_dare_android_app/raw/master/Apk%20Download/Truth%20Or%20Dare.apk
