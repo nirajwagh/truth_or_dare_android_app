@@ -1,13 +1,31 @@
 *.iml
 .gradle
 /local.properties
+
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# Ignore whole .idea except vcs if needed
+.idea/
+
 .DS_Store
 /build
 /captures
 .externalNativeBuild
+.cxx
+
+# Signing / secrets
+*.jks
+*.keystore
+keystore.properties
+gradle.properties
+
+# Generated APK/AAB
+*.apk
+*.aab
+/release/
+/APK/

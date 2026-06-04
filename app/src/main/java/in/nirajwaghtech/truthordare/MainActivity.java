@@ -64,34 +64,33 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
-                switch (menuItem.getItemId()){
-                    case R.id.menuSettings:
-                        Intent intentSettings=new Intent(MainActivity.this, AppSettings.class);
-                        startActivity(intentSettings);
-                        break;
+                if (menuItem.getItemId() == R.id.menuSettings) {
 
-                    case R.id.menuAbout:
-                        Intent intentAbout=new Intent(MainActivity.this, AppAbout.class);
-                        startActivity(intentAbout);
-                        break;
+                    Intent intentSettings = new Intent(MainActivity.this, AppSettings.class);
+                    startActivity(intentSettings);
 
-                    case R.id.menuSourceCode:
-                        Uri sourceCodeUri=Uri.parse("https://github.com/nirajwagh/truth_or_dare_android_app?files=1");
-                        Intent intentSourceCode=new Intent(Intent.ACTION_VIEW, sourceCodeUri);
-                        startActivity(intentSourceCode);
-                        break;
+                } else if (menuItem.getItemId() == R.id.menuAbout) {
 
-                    case R.id.menuOtherApps:
-                        Uri playStoreProfileUri=Uri.parse("https://play.google.com/store/apps/developer?id=The+Minimal+Developer");
-                        Intent intentPlayStoreProfile=new Intent(Intent.ACTION_VIEW, playStoreProfileUri);
-                        startActivity(intentPlayStoreProfile);
-                        break;
+                    Intent intentAbout = new Intent(MainActivity.this, AppAbout.class);
+                    startActivity(intentAbout);
 
-                    case R.id.menuYoutube:
-                        Uri youtubeChannelUri=Uri.parse("https://www.youtube.com/channel/UCG_1skZUBvz0MOjEe05TECQ/featured");
-                        Intent youtubeChannelIntent=new Intent(Intent.ACTION_VIEW, youtubeChannelUri);
-                        startActivity(youtubeChannelIntent);
-                        break;
+                } else if (menuItem.getItemId() == R.id.menuSourceCode) {
+
+                    Uri sourceCodeUri = Uri.parse("https://github.com/nirajwagh/truth_or_dare_android_app?files=1");
+                    Intent intentSourceCode = new Intent(Intent.ACTION_VIEW, sourceCodeUri);
+                    startActivity(intentSourceCode);
+
+                } else if (menuItem.getItemId() == R.id.menuOtherApps) {
+
+                    Uri playStoreProfileUri = Uri.parse("https://play.google.com/store/apps/developer?id=The+Minimal+Developer");
+                    Intent intentPlayStoreProfile = new Intent(Intent.ACTION_VIEW, playStoreProfileUri);
+                    startActivity(intentPlayStoreProfile);
+
+                } else if (menuItem.getItemId() == R.id.menuYoutube) {
+
+                    Uri youtubeChannelUri = Uri.parse("https://www.youtube.com/channel/UCG_1skZUBvz0MOjEe05TECQ/featured");
+                    Intent youtubeChannelIntent = new Intent(Intent.ACTION_VIEW, youtubeChannelUri);
+                    startActivity(youtubeChannelIntent);
                 }
                 return false;
             }
