@@ -11,8 +11,11 @@ Demo On Youtube: https://youtu.be/coW6aaKPJQ4
 
 Play Store Link: https://play.google.com/store/apps/details?id=in.nirajwaghtech.truthordare
 
-Download apk: https://github.com/nirajwagh/truth_or_dare_android_app/raw/master/Apk%20Download/Truth%20Or%20Dare.apk
+## Download
 
+**[Download APK](https://github.com/nirajwagh/truth_or_dare_android_app/releases/latest)**
+
+If installation is blocked on Android, enable Install Unknown Apps for your browser or file manager.
 
 ![Three Players](https://github.com/nirajwagh/truth_or_dare_android_app/blob/master/Screenshots/Three%20Players.png)
 
