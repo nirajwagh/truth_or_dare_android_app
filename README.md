@@ -1,29 +1,43 @@
-# truth_or_dare_android_app
+# Truth or Dare Android App
 
+A simple and fun **ad-free Truth or Dare Android app** featuring a rotating bottle for player selection.
 
-A simple ad-free android app for playing Truth or Dare game using a rotating bottle in the app.
+Players can customize the game by selecting the **number of participants**, **minimum and maximum bottle rotation**, and **rotation duration**.
 
-Users can select the number of participants, minimum and maximum rotation of the bottle and the duration of the rotation.
+Built as a lightweight **offline app** with a clean and distraction-free experience.
 
-This app does not connect to the internet and does not collect or store any type of user data.
+## Features
 
-## Youtube Demo Video
+* Interactive rotating bottle
+* Select number of participants
+* Adjustable bottle rotation settings
+* Minimal and lightweight UI
+* Fully offline
+* No ads
+* No user data collection
 
-Demo On Youtube: https://youtu.be/coW6aaKPJQ4
-
-## Play Store Link
-
-Play Store Link: https://play.google.com/store/apps/details?id=in.nirajwaghtech.truthordare
-
-## Download APK
+## Download
 
 **[Download APK](https://github.com/nirajwagh/truth_or_dare_android_app/releases/latest)**
 
-If installation is blocked on Android, enable Install Unknown Apps for your browser or file manager.
+If Android blocks installation, enable **Install Unknown Apps** for your browser or file manager.
 
-![Three Players](https://github.com/nirajwagh/truth_or_dare_android_app/blob/master/Screenshots/Three%20Players.png)
+## Play Store
 
-![Six Players](https://github.com/nirajwagh/truth_or_dare_android_app/blob/master/Screenshots/Six%20Players.png)
+**[View on Google Play](https://play.google.com/store/apps/details?id=in.nirajwaghtech.truthordare)**
 
-![Settings](https://github.com/nirajwagh/truth_or_dare_android_app/blob/master/Screenshots/settings.png)
+## YouTube Demo
 
+**[Watch Demo Video](https://youtu.be/coW6aaKPJQ4)**
+
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/nirajwagh/truth_or_dare_android_app/blob/master/Screenshots/Three%20Players.png" width="250" alt="Three Players Screen"/>
+  <img src="https://github.com/nirajwagh/truth_or_dare_android_app/blob/master/Screenshots/Six%20Players.png" width="250" alt="Six Players Screen"/>
+  <img src="https://github.com/nirajwagh/truth_or_dare_android_app/blob/master/Screenshots/settings.png" width="250" alt="Settings Screen"/>
+</p>
+
+## Privacy
+
+This app does **not connect to the internet** and does **not collect, store, or share any user data**.
